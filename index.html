@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider through JS</title>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="section">
+        <h1 class="h1">Slider</h1>
+        <div class="wrapper">
+            <div class="image">
+                <img class="img" id="featured"
+                    src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="" />
+                <div class="arrows">
+                    <div onclick="prev()" class="left-arrow"><i class="fa-solid fa-less-than"></i></div>
+                    <div onclick="next()" class="right-arrow"><i class="fa-solid fa-greater-than"></i></div>                    
+                </div>
+            </div>
+            <div class="images">
+                <img class="thumbnail active"
+                src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                <img class="thumbnail"
+                    src="https://media.istockphoto.com/id/1391533360/photo/red-sneakers-shoes.webp?a=1&s=612x612&w=0&k=20&c=oAgnHdjTkZpIiZ8AC5AkY17RgPbh8hNb9SiHTxrtVmI=" />
+                <img class="thumbnail"
+                    src="https://images.unsplash.com/photo-1548801133-da353ebb1d97?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                <img class="thumbnail"
+                    src="https://images.unsplash.com/photo-1518527399940-f3f768f47dd2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8" />
+                <img class="thumbnail"
+                    src="https://media.istockphoto.com/id/1208683466/photo/colorful-sport-shoes-on-mustard-color-backround.jpg?s=612x612&w=0&k=20&c=i4qjpMawsnjPME39tAusZQjAr-X9tIRxndO8GH6dyhU=" />
+            </div>
+        </div>     
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
